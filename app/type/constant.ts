@@ -1,0 +1,85 @@
+export const Constant = {
+    menuItems: [
+        { label: 'Domů', href: '/home' },
+        { label: 'Produkty', href: '/product' },
+        { label: 'Kontakt', href: '/contact' },
+    ],
+    pageTitlehome: 'Domů',
+    pageTitleProduct: 'Produkty',
+    pageTitlecontact: 'Kontakt',
+    pageTitlefaq: 'FAQ',
+    pageTitleGallery: 'Gallery',
+    madeby: 'Made by claster studio',
+    herobuttonproduct: 'Naše produkty',
+    herobuttoncontact: 'Kontaktujte nás',
+    ProductList: [
+        { label: 'Domácí klobásy' },
+        { label: 'Šunka bez éček' },
+        { label: 'Klobásy s kukuřicí' },
+        { label: 'Sezónní produkty' },
+    ],
+    viewall: 'Prohlédněte si celý seznam',
+    trasytitle: 'Rozvozové trasy',
+    scheduleTime: [
+        { time: 'Pátek: 8:00 - 13:00', lable: 'Lanškroun', desc: 'Výprachtice' },
+        { time: 'Pátek: 8:00 - 13:00', lable: 'Lanškroun', desc: 'Výprachtice' },
+        { time: 'Pátek: 8:00 - 13:00', lable: 'Lanškroun', desc: 'Výprachtice' },
+        { time: 'Pátek: 8:00 - 13:00', lable: 'Lanškroun', desc: 'Výprachtice' },
+        { time: 'Pátek: 8:00 - 13:00', lable: 'Lanškroun', desc: 'Výprachtice' },
+        { time: 'Pátek: 8:00 - 13:00', lable: 'Lanškroun', desc: 'Výprachtice' },
+    ],
+    ProductItems: [
+        { title: 'Špekáčky', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Bartošovy klobásy', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Pirátská klobása', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Fotbalová klobása', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Výprachtický párek', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Libový párek', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Gothaj', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Sázavský salám', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Žichlínská vrchovina', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+    ],
+    producttoOrderTitle: "Výrobky na objednání",
+    ProducttoOrderItems: [
+        { title: 'Studené mísy', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Smažené řízky kuřecí i vepřové', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Utopenci', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+    ],
+    barbequetitle: 'Grilovací sortiment',
+    barbequeItems: [
+        { title: 'Gyros', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+        { title: 'Marinované maso', desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.Aliquam in hendrerit urna.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Maecenas vitae mattis tellus..' },
+    ],
+    contactmapiframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10515.205415235145!2d16.702616219286377!3d48.785682529556645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d2d2542f2c875%3A0x400af0f6615d360!2sSedlec%2C%20Czechia!5e0!3m2!1sen!2sin!4v1739802142864!5m2!1sen!2sin",
+    contactSubtitle: "Kontaktní  informace",
+    ContactInfo: 'Popřípadě zavolejte',
+    ContactInfoList: [
+        { label: 'Sídlo provozovny:', desc: 'Crhov 40, 789 01' },
+        { label: 'Sídlo firmy:', desc: 'Žichlínek 106, 563 01' },
+        { label: 'Email:', desc: 'uzenarstvicrhovseznam.cz' },
+        { label: 'Telefon Petr Bartoš:', desc: '702 066 834' },
+        { label: 'Telefon objednávky:', desc: '770 671 442' },
+    ],
+    faqs: [
+        {
+            question: 'What is your return policy?',
+            answer: 'You can return items within 30 days of purchase.',
+        },
+        {
+            question: 'Do you offer international shipping?',
+            answer: 'Yes, we ship worldwide.',
+        },
+        {
+            question: 'How can I contact customer support?',
+            answer: 'You can reach us via email at support@example.com.',
+        },
+        {
+            question: 'Do you offer international shipping?',
+            answer: 'Yes, we ship worldwide.',
+        },
+        {
+            question: 'How can I contact customer support?',
+            answer: 'You can reach us via email at support@example.com.',
+        },
+    ]
+}

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: 'RopaMixSCPTT';
+    src: url('../public/fonts/RopaMixSCPTT-Medium.eot');
+    src: url('../public/fonts/RopaMixSCPTT-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../public/fonts/RopaMixSCPTT-Medium.woff2') format('woff2'),
+      url('../public/fonts/RopaMixSCPTT-Medium.woff') format('woff'),
+      url('../public/fonts/RopaMixSCPTT-Medium.ttf') format('truetype'),
+      url('../public/fonts/RopaMixSCPTT-Medium.svg#RopaMixSCPTT-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'RopaMixSCPTT';
+}
