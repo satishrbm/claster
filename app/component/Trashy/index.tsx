@@ -10,7 +10,7 @@ export default function Trashy() {
           {Constant.scheduleTime.map((item, index) => (
             <div
               key={index}
-              className="bg-body-bg text-black md:w-[calc(50%-12px)] mb-5 md:mb-0 p-5 pb-8"
+              className="bg-body-bg text-black md:w-[calc(50%-16px)] mb-5 md:mb-0 p-5 pb-8"
             >
               <h2 className="md:font-semibold text-4xl mb-2">{item.time}</h2>
               <h3 className="font-thin text-2xl md:text-[28px] mb-3">

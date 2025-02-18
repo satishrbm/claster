@@ -15,7 +15,7 @@ export default function faq() {
         <h2 className="text-primary text-center text-4xl md:text-7xl mb-10">
           FAQ
         </h2>
-        <p className="italic text-center text-3xl md:text-4xl font-400">
+        <p className="italic text-center text-black text-3xl md:text-4xl font-400">
           Často kladené otázky.
           <br />V případě jiné otázky mi zavolejte
         </p>

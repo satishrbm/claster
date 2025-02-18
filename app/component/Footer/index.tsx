@@ -6,16 +6,24 @@ export default function Footer() {
       <div className="mb-20">
         <ul className="flex justify-between flex-wrap text-3xl font-bold">
           <li className="w-full md:w-1/2 mb-2">
-            <a href="/product">{Constant.pageTitleProduct}</a>
+            <a href="/product" className="text-black">
+              {Constant.pageTitleProduct}
+            </a>
           </li>
           <li className="w-full md:w-1/2 mb-2 md:text-right">
-            <a href="/contact">{Constant.pageTitlecontact}</a>
+            <a href="/contact" className="text-black">
+              {Constant.pageTitlecontact}
+            </a>
           </li>
           <li className="w-full md:w-1/2 mb-2">
-            <a href="/faq">{Constant.pageTitlefaq}</a>
+            <a href="/faq" className="text-black">
+              {Constant.pageTitlefaq}
+            </a>
           </li>
           <li className="w-full md:w-1/2 mb-2 md:text-right">
-            <a href="#">{Constant.pageTitleGallery}</a>
+            <a href="#" className="text-black">
+              {Constant.pageTitleGallery}
+            </a>
           </li>
         </ul>
       </div>

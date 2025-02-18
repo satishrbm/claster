@@ -56,9 +56,9 @@ export const Constant = {
     ContactInfoList: [
         { label: 'Sídlo provozovny:', desc: 'Crhov 40, 789 01' },
         { label: 'Sídlo firmy:', desc: 'Žichlínek 106, 563 01' },
-        { label: 'Email:', desc: 'uzenarstvicrhovseznam.cz' },
-        { label: 'Telefon Petr Bartoš:', desc: '702 066 834' },
-        { label: 'Telefon objednávky:', desc: '770 671 442' },
+        { label: 'Email:', desc: 'uzenarstvicrhovseznam.cz', copy: 'true' },
+        { label: 'Telefon Petr Bartoš:', desc: '702 066 834', copy: 'true' },
+        { label: 'Telefon objednávky:', desc: '770 671 442', copy: 'true' },
     ],
     faqs: [
         {
